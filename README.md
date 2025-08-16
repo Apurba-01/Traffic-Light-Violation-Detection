@@ -40,8 +40,7 @@ All credit for the dataset and preprocessing configuration goes to the original 
 ## ⚙️ Installation and Setup
 1. **Clone this repository**
 ```bash
-git clone https://github.com/<your-username>/vehicle-detection.git
-cd vehicle-detection
+git clone https://github.com/Apurba-01/Traffic-Light-Violation-Detection.git
 ```
 2. **Install Dependencies**
 ```bash

@@ -1,4 +1,4 @@
-# 🚦 Vehicle Detection & Red Light Violation System  
+# 🚦 Vehicle Detection & Traffic Light Violation System  
 
 This project detects vehicles in a video stream and automatically flags **red light violations** using a YOLO-based object detection model. It processes traffic footage, identifies vehicles crossing the stop line during a red light, and saves cropped images of violating vehicles. It also provides a visual flash alert in the annotated video output. NOTE: This project is a prototype and only includes a sample video footage, however, real-time video can be sourced and used as the input to the existing project.
 
@@ -24,14 +24,14 @@ Vehicle-Detection-Project/
 - └── 📖 README.md                  # Project documentation
 
 ## Project Resources
-- Model weights (`best.pt`) can be found at this [link](https://drive.google.com/file/d/1Xgj24nDc6lL3ns84RiZ8VudsDXAaUj4J/view?usp=sharing)
-- `Traffic_video.mp4` can be found at this [link](https://drive.google.com/file/d/1CBOSbbplceQn9xn85QFSolwhNxlK5Pk4/view?usp=sharing)
+- Model weights (`best.pt`) can be found at this [link](https://drive.google.com/file/d/1SjlH2T2-ndS5bDOFWX0EKwBPKsZ4gQF4/view?usp=sharing)
+- `Traffic_video.mp4` can be found at this [link](https://drive.google.com/file/d/1Rd8oyeFyGN_S16AcO2uWVTZDjwnhx-bM/view?usp=sharing)
 
 ## 🤖 Model & Training Reference
 
 The YOLO model (`best.pt`) used in this project was trained using a dataset and preprocessing pipeline from **Roboflow**, originally created and shared by another contributor.  
 
-**Original Roboflow Project:** [Vehicle Object Detection Model](https://app.roboflow.com/vehicle-object-detection-oyglk/vehicle_detection-rdah2-wvwbb/generate/preprocessing)  
+**Original Roboflow Project:** [Vehicle Object Detection Model](https://universe.roboflow.com/vehicle-object-detection-oyglk/vehicle_detection-rdah2-wvwbb)  
 
 All credit for the dataset and preprocessing configuration goes to the original creator. This repository only covers the detection, logging, and visualization implementation.
 
